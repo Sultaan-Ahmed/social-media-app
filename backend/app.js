@@ -39,10 +39,10 @@ const post = require("./routes/post");
 app.use("/api/v1", user);
 app.use("/api/v1", post);
 // For deployment
-app.use(express.static(path.join(__dirname, "../frontend/build")));
+app.use(express.static(path.join(__dirname, "../client/build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+  res.sendFile(path.resolve(__dirname, "../client/build/index.html"));
 });
 
 // Global error handling middleware
