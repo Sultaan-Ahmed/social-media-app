@@ -1,0 +1,117 @@
+.registerContainer {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #aae3f8;
+}
+.registerLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.registerLeft > img {
+  width: 60%;
+  height: 60%;
+  /* object-fit: cover; */
+}
+.registerRight > h2 {
+  color: rgb(10, 34, 56);
+  font-size: 2vmax;
+  margin-bottom: 4vmax;
+}
+.registerRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.registerForm {
+  /* border: 1px solid rgba(10, 34, 56, 0.582); */
+  box-shadow: 0 0 10px rgba(10, 34, 56, 0.582);
+  width: 60%;
+  height: auto;
+  padding: 3vmax 3vmax;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: rgba(10, 34, 56, 0.137);
+}
+.registerForm > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: relative;
+  margin-bottom: 1vmax;
+}
+.registerForm > div > input {
+  background-color: #aae3f8;
+  border: none;
+  outline: none;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 1vmax 4vmax;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  color: rgb(10, 34, 56);
+  font-weight: 600;
+}
+.registerForm > div > input::placeholder {
+  color: rgb(10, 34, 56);
+  font-size: 1vmax;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.registerForm > div > svg {
+  color: rgb(10, 34, 56);
+  font-size: 2vmax;
+  position: absolute;
+  left: 1vmax;
+}
+.forgotPassword {
+  width: 10vmax;
+  display: inline !important;
+}
+.forgotPassword > p {
+  width: 9vmax;
+  /* padding: 1vmax; */
+  padding-left: 1vmax;
+  /* background-color: white; */
+  font-size: 1vmax;
+  color: rgb(10, 34, 56);
+  font-weight: 600;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.forgotPassword > p:hover {
+  color: white;
+}
+
+.registerSubmitBtn > button {
+  margin-top: 2vmax;
+  width: 12vmax;
+  padding: 0.5vmax 2vmax;
+  font-size: 1.2vmax;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(10, 34, 56);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.registerSubmitBtn > button:hover {
+  color: #aae3f8;
+  background-color: rgb(10, 34, 56);
+}
+/* For file uplaod */
+.registerAvatar > input::file-selector-button {
+  cursor: pointer;
+  width: 140%;
+  z-index: 2;
+  border: none;
+  background-color: transparent;
+}

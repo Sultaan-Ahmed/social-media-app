@@ -1,0 +1,104 @@
+.headerContainer {
+  display: flex;
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #3b82f6;
+}
+.headerLeft {
+  flex: 1.5;
+}
+.headerMiddle {
+  flex: 3;
+  padding: 1vmax 1vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.headerMiddle > input {
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 1vmax 2vmax;
+  padding-left: 4vmax;
+  border-radius: 15px;
+  color: rgb(10, 34, 56);
+  font-weight: 600;
+}
+.headerMiddle > svg {
+  position: absolute;
+  z-index: 2;
+  left: 2vmax;
+  font-size: 2vmax;
+  color: rgb(10, 34, 56);
+}
+.headerRight {
+  padding: 1vmax 1vmax;
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.headerLeft > h2 > a {
+  width: 100%;
+  color: white;
+  padding: 0 2vmax;
+  text-decoration: none;
+}
+/* Header Right side */
+.headerRight > .topbarLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.topbarLink {
+  padding: 0 1vmax;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.topbarLink:hover {
+  color: rgb(10, 34, 56);
+}
+.headerRight > .topbarIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.topbarIconItem {
+  padding: 0 1vmax;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.topbarIconItem:hover {
+  color: rgb(10, 34, 56);
+}
+.topbarIconBadge {
+  position: absolute;
+  top: -0.5vmax;
+  right: 0.8vmax;
+  text-align: center;
+  background-color: red;
+  font-size: 0.5vmax;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+.headerRight > a > img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.topbarIconItem > a {
+  color: white;
+  text-decoration: none;
+}

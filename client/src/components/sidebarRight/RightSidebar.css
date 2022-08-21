@@ -1,0 +1,33 @@
+.rightSidebarContainer {
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 1vmax auto;
+}
+.notifications {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vmax;
+}
+.notifications > img {
+  width: 50px;
+  margin-right: 10px;
+  height: 50px;
+}
+.notifications > p {
+  font-size: 1vmax;
+}
+.notifications > p > span {
+  font-weight: 600;
+  font-size: 1vmax;
+}
+
+.advertisements > img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+.onlineFriends > h2 {
+  margin: 1vmax auto;
+  font-size: 1vmax;
+}

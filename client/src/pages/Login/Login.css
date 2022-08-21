@@ -1,0 +1,111 @@
+.loginContainer {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url("../../images/banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #aae3f8;
+}
+.loginLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.loginLeft > img {
+  width: 60%;
+  height: 60%;
+  /* object-fit: cover; */
+}
+.loginRight > h2 {
+  color: rgb(10, 34, 56);
+  font-size: 2vmax;
+  margin-bottom: 4vmax;
+}
+.loginRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.loginForm {
+  /* border: 1px solid rgba(10, 34, 56, 0.582); */
+  box-shadow: 0 0 10px rgba(10, 34, 56, 0.582);
+  width: 60%;
+  height: auto;
+  padding: 3vmax 3vmax;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: rgba(10, 34, 56, 0.137);
+}
+.loginForm > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  position: relative;
+  margin-bottom: 1vmax;
+}
+.loginForm > div > input {
+  background-color: #aae3f8;
+  border: none;
+  outline: none;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 1vmax 4vmax;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  color: rgb(10, 34, 56);
+  font-weight: 600;
+}
+.loginForm > div > input::placeholder {
+  color: rgb(10, 34, 56);
+  font-size: 1vmax;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.loginForm > div > svg {
+  color: rgb(10, 34, 56);
+  font-size: 2vmax;
+  position: absolute;
+  left: 1vmax;
+}
+.forgotPassword {
+  width: 10vmax;
+  display: inline !important;
+}
+.forgotPassword > p {
+  width: 9vmax;
+  /* padding: 1vmax; */
+  padding-left: 1vmax;
+  /* background-color: white; */
+  font-size: 1vmax;
+  color: rgb(10, 34, 56);
+  font-weight: 600;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.forgotPassword > p:hover {
+  color: white;
+}
+
+.submitBtn > button {
+  margin-top: 2vmax;
+  width: 10vmax;
+  padding: 0.5vmax 2vmax;
+  font-size: 1.2vmax;
+  font-weight: 600;
+  letter-spacing: 5px;
+  background-color: transparent;
+  border: 1px solid rgb(10, 34, 56);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.submitBtn > button:hover {
+  color: #aae3f8;
+  background-color: rgb(10, 34, 56);
+}

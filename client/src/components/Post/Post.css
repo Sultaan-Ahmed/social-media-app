@@ -1,0 +1,76 @@
+.posts {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  margin: 1vmax auto;
+  width: 90%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 15px 0 #ccc;
+  border-radius: 5px;
+  padding: 1vmax 2vmax;
+}
+.post-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.post-1 > svg {
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.post-1 > svg:hover {
+  color: #ccc;
+}
+.post-1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1vmax;
+}
+.post-1-1 > span {
+  font-weight: 600;
+  font-size: 1vmax;
+}
+.post-1-1 > img {
+  margin-right: 1vmax;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.post-2 {
+  margin: 1vmax 0;
+}
+.post-2 > .caption {
+  font-size: 1vmax;
+}
+.post-3 > img {
+  width: 100%;
+  height: auto;
+}
+.post-4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.post-4-1,
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1vmax;
+  font-size: 1vmax;
+}
+.comments > svg {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.comments > svg:hover {
+  color: #ccc;
+}
+.post-4-1 > svg {
+  margin-right: 10px;
+  color: red;
+  cursor: pointer;
+}
