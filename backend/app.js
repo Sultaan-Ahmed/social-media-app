@@ -6,6 +6,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const fileUpload = require("express-fileupload");
 const { errorMiddleware } = require("./middleware/error");
+const path = require("path");
 if (process.env.NODE_ENV !== "production") {
   dotenv.config({ path: "config.env" });
   app.use(morgan("dev"));
